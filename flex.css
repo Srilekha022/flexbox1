@@ -1,0 +1,54 @@
+.parent{
+    background-color: aqua;
+    width: 50%;
+    height: 620px;
+    align-items: center;
+    position: relative;
+    left: 250px;
+    border-radius: 2%;
+}
+p, h1{
+    text-align: center;
+}
+.child{
+    display: inline-block;
+    margin: 1%; 
+    box-sizing: border-box; 
+    padding: 20px;
+    border: 1px solid #000;
+    font-size: 16px;
+    border-radius: 2%; 
+    align-items: center;
+}
+.one{
+    background-color: white;
+    width: 200px;
+    height: 380px;
+    position: relative;
+    top: 70px;
+}
+.two{
+    background-color: white;
+    width: 200px;
+    height: 450px;
+    position: relative;
+    bottom: 10px;
+    top: 30px;
+}
+button{
+    background-color: blue;
+   
+}
+.b1{
+    background-color: lightsalmon;
+    height: 30px;
+    position: relative;
+    bottom: 20px;
+}
+.three{
+    background-color: white;
+    width: 200px;
+    height: 380px;
+    position: relative;
+    top: 70px;
+}
